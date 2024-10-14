@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="https://www.linkedin.com/in/lorita-icyeza/" target="_blank">About Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="https://github.com/icyeza/BKVC.git">Projects</a></li>
+                <li><a href="mailto:icyeza12@gmail.com">Contact</a></li>
+            </ul>
+            <div class="container">
+                <img src="IMG_3318 (1).jpg" alt="Profile Picture" class="theimage">
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Hello, I'm Lorita Sesame Icyeza</h1>
+        <p>A Software Engineering Student with a unique background that has prepared me to be a team player who communicates effectively. I enjoy solving complex problems and am always open to learning new skills.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="about-me">
+        <h2>My Skills</h2>
+        <p>I enjoy working on web development and have experience in Python, Flask, JavaScript, Node.js, Linux, MySQL, HTML, and CSS.</p>
+    </section>
+
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <div class="resume-section">
+            <h3>Experience</h3>
+            <ul>
+                <li>
+                    <strong>Backend Developer Intern - Bank of Kigali</strong><br>
+                    April 2024 - June 2024
+                </li>
+                <!-- Add more experiences here -->
+            </ul>
+        </div>
+        <div class="resume-section">
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <strong>Bachelor's Degree - Lancaster University Leipzig</strong><br>
+                    2023 - 2026
+                </li>
+            </ul>
+        </div>
+        <a href="Resume (1).pdf" download class="btn">Download My Resume</a>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Virtual Card</h3>
+            <p>The project focused on developing a set of APIs using Python and Flask it's framework to enable users to perform various actions related to virtual cards. These actions included user authentication (sign up and log in), card management (creation, display, status change, and retrieval of inactive cards), transaction processing (different types of transactions with transaction limits), transaction confirmation via OTP messages, and retrieval of transaction statements.</p>
+            <a href="https://github.com/icyeza/BKVC.git" target="_blank" class="btn">View Project</a>
+        </div>
+        <h3>Interactive mockups</h3>
+        <div>
+            <p>Figma designs</p>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/pcYwzxt2RQTKTb2vP6VpmX/Interactive-mockup?node-id=1-4&node-type=canvas&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mdkondqp" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+
+    
+</body>
+</html>
